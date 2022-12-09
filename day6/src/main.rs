@@ -3,7 +3,7 @@
 use itertools::Itertools;
 
 fn main(){
-    let input = include_str!("input.txt");
+    let input = include_str!("input_tst.txt");
     for line in input.lines(){
         for i in 4..line.len(){
             if line[i-4..i].chars().into_iter().unique().collect::<Vec<char>>().len() == 4{
