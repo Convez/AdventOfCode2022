@@ -1,0 +1,17 @@
+[package]
+name = "day21"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "day21"
+path = "src/main.rs"
+
+[dependencies]
+sscanf = "0.4"
+itertools = "0.10.5"
+num-derive = "0.3"
+num-traits = "0.2"
+strum="0.24"
+strum_macros="0.24"
+mexprp="0.3"
